@@ -33,7 +33,9 @@ h6 {
 .rounded-pill {
   border-radius: 5rem;
 }
-
+.nav-item {
+  padding-left: 1rem;
+}
 .navbar-custom {
   padding-top: 1rem;
   padding-bottom: 1rem;
