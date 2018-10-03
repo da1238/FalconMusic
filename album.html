@@ -2,6 +2,7 @@
 <html lang="en">
 
   <head>
+      <script src="album.js"></script>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -112,25 +113,31 @@
                 </div>
                 <div class="col-lg-6 order-lg-1">
                     <div class="p-5">
-                        <h1 >My Album</h1>
-                        <a href="#" class="btn btn-secondary btn-md rounded-pill">Add Song to Album</a>
+                        <h1 class="my-album">My Album</h1>
+
+                        <div class="dropdown">
+                            <button onclick="myFunction()" class="dropbtn rounded-pill">Edit Album</button>
+                            <div id="myDropdown" class="dropdown-content">
+                                <a href="#">Add Song to Album</a>
+                                <a href="#">Remove Song From Album</a>
+                                <a href="#"></a>
+                            </div>
+                        </div>
+
                         <br>
                         <br>
                         <div class="songs">
-                            <input type="checkbox" name="song" value="song"> SONG<br>
-                            <input type="checkbox" name="song" value="song"> SONG<br>
-                            <input type="checkbox" name="song" value="song"> SONG<br>
-                            <input type="checkbox" name="song" value="song"> SONG<br>
-                            <input type="checkbox" name="song" value="song"> SONG<br>
-                            <input type="checkbox" name="song" value="song"> SONG<br>
-                            <input type="checkbox" name="song" value="song"> SONG<br>
+                            Song <br>
+                            Song<br>
+                            Song<br>
+                            Song<br>
+                            Song<br>
+                            Song<br>
                             <br>
-
-
-                            <a href="#" class="btn btn-secondary rounded-pill"> Remove Selected Songs</a>
-
                         </div>
+
                     </div>
+
                 </div>
             </div>
         </div>
