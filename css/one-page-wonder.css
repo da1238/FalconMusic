@@ -254,3 +254,6 @@ header.masthead .bg-circle-4 {
     display: flex;
     align-items: center;
 }
+.playlistContainer {
+    background-color: green;
+}
