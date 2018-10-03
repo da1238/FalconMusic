@@ -16,7 +16,7 @@ h4,
 h5,
 h6 {
   font-family: 'Catamaran';
-  font-weight: 800 !important;
+  /*font-weight: 800 !important;*/
 }
 
 .btn-xl {
@@ -168,16 +168,30 @@ header.masthead .bg-circle-4 {
 
 .send-button{
     background: #54C7C3;
+<<<<<<< HEAD:css/falconmusic.css
     width:100%;
+=======
+    border-radius: 25px;
+    width:100%;
+    height: 50px;
+>>>>>>> b3eec0a63e29da9c0b4d9d572b27a5272acefa2f:css/falconmusic.css
     font-weight: 600;
     color:#fff;
     padding: 8px 25px;
 }
 .g-button{
     color: #fff !important;
+<<<<<<< HEAD:css/falconmusic.css
     border: 1px solid #EA4335;
     background: #ea4335 !important;
     width:100%;
+=======
+    border-radius: 25px;
+    border: 1px solid #EA4335;
+    background: #ea4335 !important;
+    width:100%;
+    height: 50px;
+>>>>>>> b3eec0a63e29da9c0b4d9d572b27a5272acefa2f:css/falconmusic.css
     font-weight: 600;
     color:#fff;
     padding: 8px 25px;
@@ -256,4 +270,12 @@ header.masthead .bg-circle-4 {
 }
 .playlistContainer {
     background-color: green;
+<<<<<<< HEAD:css/falconmusic.css
+=======
+}
+
+.forgot {
+    text-align: left; margin-bottom:20px;
+    margin-top: -10px;
+>>>>>>> b3eec0a63e29da9c0b4d9d572b27a5272acefa2f:css/falconmusic.css
 }

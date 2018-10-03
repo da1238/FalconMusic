@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58fed611-3243-438e-97bb-8501aeed1029" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/profile.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/css/one-page-wonder.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/one-page-wonder.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/falconmusic.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/falconmusic.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/profile.html" afterDir="false" />
+>>>>>>> b3eec0a63e29da9c0b4d9d572b27a5272acefa2f
       <change beforePath="$PROJECT_DIR$/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/signup.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -29,26 +36,46 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+<<<<<<< HEAD
           <entry key="css" value="1" />
           <entry key="html" value="11" />
+=======
+          <entry key="css" value="2" />
+          <entry key="html" value="13" />
+>>>>>>> b3eec0a63e29da9c0b4d9d572b27a5272acefa2f
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+<<<<<<< HEAD
           <entry key="CSS" value="1" />
           <entry key="HTML" value="11" />
+=======
+          <entry key="CSS" value="2" />
+          <entry key="HTML" value="13" />
+>>>>>>> b3eec0a63e29da9c0b4d9d572b27a5272acefa2f
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+<<<<<<< HEAD
           <entry key="css" value="64" />
           <entry key="html" value="441" />
+=======
+          <entry key="css" value="106" />
+          <entry key="html" value="576" />
+>>>>>>> b3eec0a63e29da9c0b4d9d572b27a5272acefa2f
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+<<<<<<< HEAD
           <entry key="CSS" value="64" />
           <entry key="HTML" value="441" />
+=======
+          <entry key="CSS" value="106" />
+          <entry key="HTML" value="576" />
+>>>>>>> b3eec0a63e29da9c0b4d9d572b27a5272acefa2f
         </counts>
       </usages-collector>
     </session>
@@ -58,35 +85,62 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/login.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="216">
               <caret line="34" column="60" lean-forward="true" selection-start-line="34" selection-start-column="60" selection-end-line="34" selection-end-column="60" />
+=======
+            <state relative-caret-position="165">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+>>>>>>> b3eec0a63e29da9c0b4d9d572b27a5272acefa2f
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/signup.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="621">
               <caret line="54" column="36" lean-forward="true" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="36" />
+=======
+        <entry file="file://$PROJECT_DIR$/css/falconmusic.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2874">
+              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+>>>>>>> b3eec0a63e29da9c0b4d9d572b27a5272acefa2f
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/css/one-page-wonder.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="749">
               <caret line="247" column="1" lean-forward="true" selection-start-line="247" selection-start-column="1" selection-end-line="247" selection-end-column="1" />
+=======
+        <entry file="file://$PROJECT_DIR$/signup.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="741">
+              <caret line="110" column="51" selection-start-line="110" selection-start-column="51" selection-end-line="110" selection-end-column="51" />
+>>>>>>> b3eec0a63e29da9c0b4d9d572b27a5272acefa2f
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/profile.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="885">
               <caret line="59" column="29" lean-forward="true" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="29" />
+=======
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/profile.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="617">
+              <caret line="115" column="111" selection-start-line="115" selection-start-column="79" selection-end-line="115" selection-end-column="111" />
+>>>>>>> b3eec0a63e29da9c0b4d9d572b27a5272acefa2f
               <folding>
                 <element signature="e#2255#2261#0" expanded="true" />
               </folding>
@@ -94,11 +148,28 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/homepage.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="544">
               <caret line="91" column="5" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="13" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/changePassword.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="423">
+              <caret line="81" column="12" selection-start-line="81" selection-start-column="12" selection-end-line="83" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/homepage.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="109">
+              <caret line="62" column="57" lean-forward="true" selection-start-line="62" selection-start-column="57" selection-end-line="62" selection-end-column="57" />
+>>>>>>> b3eec0a63e29da9c0b4d9d572b27a5272acefa2f
             </state>
           </provider>
         </entry>
@@ -124,10 +195,18 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/homepage.html" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/profile.html" />
         <option value="$PROJECT_DIR$/css/one-page-wonder.css" />
         <option value="$PROJECT_DIR$/login.html" />
         <option value="$PROJECT_DIR$/signup.html" />
+=======
+        <option value="$PROJECT_DIR$/css/one-page-wonder.css" />
+        <option value="$PROJECT_DIR$/signup.html" />
+        <option value="$PROJECT_DIR$/login.html" />
+        <option value="$PROJECT_DIR$/css/falconmusic.css" />
+        <option value="$PROJECT_DIR$/profile.html" />
+>>>>>>> b3eec0a63e29da9c0b4d9d572b27a5272acefa2f
       </list>
     </option>
   </component>
@@ -148,8 +227,14 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
+<<<<<<< HEAD
     <option name="width" value="1680" />
     <option name="height" value="1050" />
+=======
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="962" />
+>>>>>>> b3eec0a63e29da9c0b4d9d572b27a5272acefa2f
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -164,6 +249,14 @@
               <item name="FalconMusic" type="b2602c69:ProjectViewProjectNode" />
               <item name="FalconMusic" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< HEAD
+=======
+            <path>
+              <item name="FalconMusic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FalconMusic" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+>>>>>>> b3eec0a63e29da9c0b4d9d572b27a5272acefa2f
           </expand>
           <select />
         </subPane>
@@ -201,12 +294,20 @@
       <option name="presentableId" value="Default" />
       <updated>1538514951931</updated>
       <workItem from="1538514953468" duration="267000" />
+<<<<<<< HEAD
       <workItem from="1538516238766" duration="9279000" />
+=======
+      <workItem from="1538516238766" duration="12948000" />
+>>>>>>> b3eec0a63e29da9c0b4d9d572b27a5272acefa2f
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="9546000" />
+=======
+    <option name="totallyTimeSpent" value="13215000" />
+>>>>>>> b3eec0a63e29da9c0b4d9d572b27a5272acefa2f
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -262,15 +363,23 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="34" column="60" lean-forward="true" selection-start-line="34" selection-start-column="60" selection-end-line="34" selection-end-column="60" />
+=======
+    <entry file="file://$PROJECT_DIR$/homepage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="62" column="57" lean-forward="true" selection-start-line="62" selection-start-column="57" selection-end-line="62" selection-end-column="57" />
+>>>>>>> b3eec0a63e29da9c0b4d9d572b27a5272acefa2f
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/signup.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="621">
           <caret line="54" column="36" lean-forward="true" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="36" />
         </state>
@@ -290,6 +399,48 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="91" column="5" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="13" />
+=======
+        <state relative-caret-position="741">
+          <caret line="110" column="51" selection-start-line="110" selection-start-column="51" selection-end-line="110" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/WebstormProjects/FinalProject/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="148" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/falconmusic.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2874">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/changePassword.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="81" column="12" selection-start-line="81" selection-start-column="12" selection-end-line="83" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="617">
+          <caret line="115" column="111" selection-start-line="115" selection-start-column="79" selection-end-line="115" selection-end-column="111" />
+          <folding>
+            <element signature="e#2255#2261#0" expanded="true" />
+          </folding>
+>>>>>>> b3eec0a63e29da9c0b4d9d572b27a5272acefa2f
         </state>
       </provider>
     </entry>
