@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
+    <script src="album.js"></script>
     <title>Albums - Falcon Music</title>
 
     <!-- Bootstrap core CSS -->
@@ -21,137 +21,141 @@
     <!-- Custom styles for this template -->
     <link href="css/falconmusic.css" rel="stylesheet">
 
-  </head>
+</head>
 
-  <body>
+<body>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
-      <div class="container">
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+    <div class="container">
         <a class="navbar-brand" href="homepage.html">Falcon Music</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
         </button>
-          <form class="form-inline">
-              <input class="form-control mr-sm-6" type="search" placeholder="Search for an Album" aria-label="Search">
-              <button id="button1" class="btn btn-outline-success my-2 my-sm-4" type="submit">Search</button>
-          </form>
+        <form class="form-inline">
+            <input class="form-control mr-sm-6" type="search" placeholder="Search for an Album" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-4" type="submit" style="color:black;">Search</button>
+        </form>
         <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="playlists.html">My Playlists</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="album.html">Albums</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="artist.html">Artists</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="song.html">Songs</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="signup.html">Sign Up</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="login.html">Log In</a>
-            </li>
-          </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="playlists.html">My Playlists</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="album.html">Albums</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="artist.html">Artists</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="song.html">Songs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="signup.html">Sign Up</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">Log In</a>
+                </li>
+            </ul>
         </div>
-      </div>
-    </nav>
+    </div>
+</nav>
 
-    <header class="masthead text-center text-white">
-      <div class="masthead-content">
+<header class="masthead text-center text-white">
+    <div class="masthead-content">
         <div class="container">
-          <h1 class="masthead-heading mb-0">Albums</h1>
-          <h2 class="masthead-subheading mb-0">Will Rock Your Socks Off</h2>
+            <h1 class="masthead-heading mb-0">Albums</h1>
+            <h2 class="masthead-subheading mb-0">Will Rock Your Socks Off</h2>
             <a href="#" class="btn btn-primary btn-xl rounded-pill mt-5">Learn More</a>
         </div>
-      </div>
-      <div class="bg-circle-1 bg-circle"></div>
-      <div class="bg-circle-2 bg-circle"></div>
-      <div class="bg-circle-3 bg-circle"></div>
-      <div class="bg-circle-4 bg-circle"></div>
-    </header>
+    </div>
+    <div class="bg-circle-1 bg-circle"></div>
+    <div class="bg-circle-2 bg-circle"></div>
+    <div class="bg-circle-3 bg-circle"></div>
+    <div class="bg-circle-4 bg-circle"></div>
+</header>
 
-    <section>
-      <div class="container">
+<section>
+    <div class="container">
         <div class="row align-items-center">
-          <div class="col-lg-6 order-lg-2">
-            <div class="p-5">
-              <img class="img-fluid rounded-circle" src="img/02.jpg" alt="">
+            <div class="col-lg-6 order-lg-2">
+                <div class="p-5">
+                    <img class="img-fluid rounded-circle" src="img/02.jpg" alt="">
+                </div>
             </div>
-          </div>
-          <div class="col-lg-6 order-lg-1">
-            <div class="p-5">
-                <h1 >New Album</h1>
-              <div>
-                  <form>
-                      Album Title:<br>
-                      <input type="text" name="albumtitle"><br>
-                      Artist Name:<br>
-                      <input type="text" name="artist">
-                  </form>
+            <div class="col-lg-6 order-lg-1">
+                <div class="p-5">
+                    <h1 >New Album</h1>
+                    <div>
+                        <form>
+                            Album Title:<br>
+                            <input type="text" name="albumtitle"><br>
+                            Artist Name:<br>
+                            <input type="text" name="artist">
+                        </form>
 
-                  <a href="#" class="btn btn-primary btn-xl rounded-pill mt-5">Create Album</a>
+                        <a href="#" class="btn btn-primary btn-xl rounded-pill mt-5">Create Album</a>
 
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section>
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6 order-lg-2">
-                    <div class="p-5">
-                        <img class="img-fluid " src="img/03.jpg" alt="">
                     </div>
                 </div>
-                <div class="col-lg-6 order-lg-1">
-                    <div class="p-5">
-                        <h1 >My Album</h1>
-                        <a href="#" class="btn btn-secondary rounded-pill">Add Song to Album</a>
-                        <br>
-                        <br>
-                        <div>
-                            <input type="checkbox" name="song" value="song"> SONG<br>
-                            <input type="checkbox" name="song" value="song"> SONG<br>
-                            <input type="checkbox" name="song" value="song"> SONG<br>
-                            <input type="checkbox" name="song" value="song"> SONG<br>
-                            <input type="checkbox" name="song" value="song"> SONG<br>
-                            <input type="checkbox" name="song" value="song"> SONG<br>
-                            <input type="checkbox" name="song" value="song"> SONG<br>
-                            <br>
-
-
-                            <a href="#" class="btn btn-secondary rounded-pill"> Remove Selected Songs</a>
-
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 order-lg-2">
+                <div class="p-5">
+                    <img class="img-fluid " src="img/03.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-lg-6 order-lg-1">
+                <div class="p-5">
+                    <div class="header">
+                        <h1 class="my-album">My Album</h1>
+                    </div>
+                    <div class="dropdown">
+                        <button onclick="myFunction()" class="dropbtn rounded-pill">Edit Album</button>
+                        <div id="myDropdown" class="dropdown-content">
+                            <a href="#">Add Song to Album</a>
+                            <a href="#">Remove Song From Album</a>
+                            <a href="#"></a>
                         </div>
                     </div>
+                    <br>
+                    Song <br>
+                    Song<br>
+                    Song<br>
+                    Song<br>
+                    Song<br>
+                    Song<br>
+                    <br>
                 </div>
+
             </div>
         </div>
-    </section>
+    </div>
+    </div>
+    </div>
+</section>
 
 
 
 
 
-    <!-- Footer -->
-    <footer class="py-5 bg-black">
-      <div class="container">
+<!-- Footer -->
+<footer class="py-5 bg-black">
+    <div class="container">
         <p class="m-0 text-center text-white small">Copyright &copy; Your Website 2018</p>
-      </div>
-      <!-- /.container -->
-    </footer>
+    </div>
+    <!-- /.container -->
+</footer>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-  </body>
+</body>
 
 </html>
