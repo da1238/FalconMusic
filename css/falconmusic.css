@@ -280,3 +280,12 @@ header.masthead .bg-circle-4 {
 input[type="radio"] {
     margin-right: 5px;
 }
+#button1 {
+    color: white;
+    background-color: cornflowerblue;
+    border-color: cornflowerblue;
+}
+#button1:hover {
+    background-color: #273d5e;
+    border-color:#273d5e;
+}
