@@ -281,7 +281,7 @@ input[type="radio"] {
     margin-right: 5px;
 }
 #button1 {
-    color: white;
+    color: white !important;
     background-color: cornflowerblue;
     border-color: cornflowerblue;
 }
