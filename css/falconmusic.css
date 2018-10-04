@@ -289,3 +289,6 @@ input[type="radio"] {
     background-color: #273d5e;
     border-color:#273d5e;
 }
+.collapse{
+    margin-bottom:10px;
+}
