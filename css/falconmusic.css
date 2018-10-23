@@ -341,7 +341,7 @@ input[type="radio"] {
 
 .show {display:block;}
 
-<<<<<<< HEAD
+
 .button {
     position: center;
     margin-left: 600px;
@@ -361,8 +361,7 @@ input[type="radio"] {
     background-color: lightskyblue;
 
 }
-header {
-=======
+
 .table-wrapper {
     background: #fff;
     padding: 20px 25px;
@@ -962,15 +961,13 @@ body .no-padding {
     margin-bottom: 100px;
 
 }
+#addalbum {
+    margin-top: 50px;
+    margin-right: 20px;
+}
 
 
 
 
 
 
-
-
-
-
-
->>>>>>> 79cbe69a5c394ee87aa04fbfdb4995f154791745
