@@ -75,7 +75,6 @@ header.masthead {
     background-attachment: scroll;
     background-size: cover;
 }
-
 header.masthead .masthead-content {
     z-index: 1;
     position: relative;
@@ -956,16 +955,29 @@ body .no-padding {
     top: auto;
     bottom: 100% !important;
     float: right;
+    /*margin: auto;*/
 }
+.dropdown-menu a{
 
-.p-5{
-    margin-bottom: 100px;
+    padding-left: 30px;
+    color: red;
 
 }
 #addalbum {
     margin-top: 50px;
     margin-right: 20px;
 }
+#songrating {
+    margin-left: 45px;
+}
+#albumcover {
+    margin-top: 25px;
+    vertical-align: text-top;
+}
+#delete {
+    margin-top: 25px;
+}
+
 
 .song-list{
     margin: 20px;
@@ -1038,7 +1050,12 @@ body .no-padding {
     transform: rotate(45deg);
 }
 
+.p-5{
+    margin-bottom: 100px;
 
 
+}
 
-
+.delete {
+    text-align: center;
+}
