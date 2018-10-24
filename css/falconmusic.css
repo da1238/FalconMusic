@@ -306,6 +306,7 @@ input[type="radio"] {
 
 .dropbtn:hover, .dropbtn:focus {
     background-color: #2980B9;
+
 }
 
 
@@ -339,6 +340,27 @@ input[type="radio"] {
 
 
 .show {display:block;}
+
+
+.button {
+    position: center;
+    margin-left: 600px;
+}
+/* Style buttons courtesy of W3 schools*/
+.btn {
+    background-color: #273d5e; /* Blue background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 12px 16px; /* Some padding */
+    font-size: 16px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+    background-color: lightskyblue;
+
+}
 
 .table-wrapper {
     background: #fff;
@@ -941,8 +963,26 @@ body .no-padding {
     color: red;
 
 }
+#addalbum {
+    margin-top: 50px;
+    margin-right: 20px;
+}
+#songrating {
+    margin-left: 45px;
+}
+#albumcover {
+    margin-top: 25px;
+    vertical-align: text-top;
+}
+#delete {
+    margin-top: 25px;
+}
 
 .p-5{
     margin-bottom: 100px;
 
+}
+
+.delete {
+    text-align: center;
 }
