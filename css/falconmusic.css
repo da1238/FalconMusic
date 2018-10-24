@@ -968,6 +968,18 @@ body .no-padding {
 #songrating {
     margin-left: 45px;
 }
+#albumcover {
+    margin-top: 25px;
+    vertical-align: text-top;
+}
+#delete {
+    margin-top: 25px;
+
+
+}
+.delete {
+    text-align: center;
+}
 
 
 
