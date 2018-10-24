@@ -60,12 +60,40 @@
         </div>
       </div>
     </nav>
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Add a Song</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="song-name" class="col-form-label">Song Name</label>
+                <input type="text" class="form-control" id="song-name">
+              </div>
+              <div class="form-group">
+                <label for="artist-name" class="col-form-label">Artist Name</label>
+                <input type="text" class="form-control" id="artist-name">
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Add Song</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <header class="masthead text-center text-white">
       <div class="masthead-content">
         <div class="container">
           <h1 class="masthead-heading mb-0">Songs</h1>
-          <a href="#" class="btn btn-primary btn-xl rounded-pill mt-5">+</a>
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">+ADD SONG</button>
         </div>
       </div>
       <div class="bg-circle-1 bg-circle"></div>
@@ -95,6 +123,7 @@
                           </h4>
                           <p class="">
                             <b>Maroon 5</b>
+                            <b><a data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo" href="song.html">Update</a></b>
                           </p>
                           <div class="rating" id="songrating1">
                             <input type="radio" id="star10" name="rating" value="10" /><label for="star10" title="Rocks!">5 stars</label>
@@ -122,7 +151,9 @@
                           </h4>
                           <p class="">
                             <b>Maroon 5</b>
+                            <b><a data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo" href="song.html">Update</a></b>
                           </p>
+
                           <div class="rating" id="songrating2">
                             <input type="radio" id="star10" name="rating" value="10" /><label for="star10" title="Rocks!">5 stars</label>
                             <input type="radio" id="star9" name="rating" value="9" /><label for="star9" title="Rocks!">4 stars</label>
@@ -130,6 +161,7 @@
                             <input type="radio" id="star7" name="rating" value="7" /><label for="star7" title="Pretty good">2 stars</label>
                             <input type="radio" id="star6" name="rating" value="6" /><label for="star6" title="Meh">1 star</label>
                           </div>
+
                           <br>
                           <br>
                         </div>
@@ -149,6 +181,7 @@
                           </h4>
                           <p class="">
                             <b>Imagine Dragons</b>
+                            <b><a data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo" href="song.html">Update</a></b>
                           </p>
                           <div class="rating" id="songrating3">
                             <input type="radio" id="star10" name="rating" value="10" /><label for="star10" title="Rocks!">5 stars</label>
@@ -176,6 +209,7 @@
                           </h4>
                           <p class="">
                             <b>Imagine Dragons</b>
+                            <b><a data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo" href="song.html">Update</a></b>
                           </p>
                           <div class="rating" id="songrating4">
                             <input type="radio" id="star10" name="rating" value="10" /><label for="star10" title="Rocks!">5 stars</label>
@@ -218,6 +252,7 @@
                           </h4>
                           <p class="">
                             <b>Imagine Dragons</b>
+                            <b><a data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo" href="song.html">Update</a></b>
                           </p>
                           <div class="rating" id="songrating5">
                             <input type="radio" id="star10" name="rating" value="10" /><label for="star10" title="Rocks!">5 stars</label>
@@ -245,6 +280,7 @@
                           </h4>
                           <p class="">
                             <b>Imagine Dragons</b>
+                            <b><a data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo" href="song.html">Update</a></b>
                           </p>
                           <div class="rating" id="songrating6">
                             <input type="radio" id="star10" name="rating" value="10" /><label for="star10" title="Rocks!">5 stars</label>
@@ -272,6 +308,7 @@
                           </h4>
                           <p class="">
                             <b>Adele</b>
+                            <b><a data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo" href="song.html">Update</a></b>
                           </p>
                           <div class="rating" id="songrating7">
                             <input type="radio" id="star10" name="rating" value="10" /><label for="star10" title="Rocks!">5 stars</label>
@@ -299,6 +336,7 @@
                           </h4>
                           <p class="">
                             <b>Adele</b>
+                            <b><a data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo" href="song.html">Update</a></b>
                           </p>
                           <div class="rating" id="songrating8">
                             <input type="radio" id="star10" name="rating" value="10" /><label for="star10" title="Rocks!">5 stars</label>
@@ -339,6 +377,7 @@
                               </h4>
                               <p class="">
                                 <b>Adele</b>
+                                <b><a data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo" href="song.html">Update</a></b>
                               </p>
                               <div class="rating" id="songrating9">
                                 <input type="radio" id="star10" name="rating" value="10" /><label for="star10" title="Rocks!">5 stars</label>
@@ -366,6 +405,7 @@
                               </h4>
                               <p class="">
                                 <b>Adele</b>
+                                <b><a data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo" href="song.html">Update</a></b>
                               </p>
                               <div class="rating" id="songrating10">
                                 <input type="radio" id="star10" name="rating" value="10" /><label for="star10" title="Rocks!">5 stars</label>
@@ -393,6 +433,7 @@
                               </h4>
                               <p class="">
                                 <b>Adele</b>
+                                <b><a data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo" href="song.html">Update</a></b>
                               </p>
                               <div class="rating" id="songrating11">
                                 <input type="radio" id="star10" name="rating" value="10" /><label for="star10" title="Rocks!">5 stars</label>
@@ -420,6 +461,7 @@
                               </h4>
                               <p class="">
                                 <b>X Ambassadors</b>
+                                <b><a data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo" href="song.html">Update</a></b>
                               </p>
                               <div class="rating" id="songrating12">
                                 <input type="radio" id="star10" name="rating" value="10" /><label for="star10" title="Rocks!">5 stars</label>
@@ -460,6 +502,7 @@
                                   </h4>
                                   <p class="">
                                     <b>Macklemore</b>
+                                    <b><a data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo" href="song.html">Update</a></b>
                                   </p>
                                   <div class="rating" id="songrating13">
                                     <input type="radio" id="star10" name="rating" value="10" /><label for="star10" title="Rocks!">5 stars</label>
@@ -487,6 +530,7 @@
                                   </h4>
                                   <p class="">
                                     <b>Macklemore</b>
+                                    <b><a data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo" href="song.html">Update</a></b>
                                   </p>
                                   <div class="rating" id="songrating14">
                                     <input type="radio" id="star10" name="rating" value="10" /><label for="star10" title="Rocks!">5 stars</label>
@@ -514,6 +558,7 @@
                                   </h4>
                                   <p class="">
                                     <b>Lauv</b>
+                                    <b><a data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo" href="song.html">Update</a></b>
                                   </p>
                                   <div class="rating" id="songrating15">
                                     <input type="radio" id="star10" name="rating" value="10" /><label for="star10" title="Rocks!">5 stars</label>
@@ -541,6 +586,7 @@
                                   </h4>
                                   <p class="">
                                     <b>Donald Glover</b>
+                                    <b><a data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo" href="song.html">Update</a></b>
                                   </p>
                                   <div class="rating" id="songrating16">
                                     <input type="radio" id="star10" name="rating" value="10" /><label for="star10" title="Rocks!">5 stars</label>
