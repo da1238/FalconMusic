@@ -933,20 +933,16 @@ body .no-padding {
     top: auto;
     bottom: 100% !important;
     float: right;
+    /*margin: auto;*/
+}
+.dropdown-menu a{
+
+    padding-left: 30px;
+    color: red;
+
 }
 
 .p-5{
     margin-bottom: 100px;
 
 }
-
-
-
-
-
-
-
-
-
-
-
