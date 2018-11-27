@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2018-11-19 20:19:32
+/* Smarty version 3.1.33, created on 2018-11-26 19:21:11
   from 'C:\Apache24\htdocs\FalconMusic\public_html\templates\view_playlist.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5bf36124092ae5_85844890',
+  'unifunc' => 'content_5bfc8df7df9708_96891035',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '0651e68ab56ff3de51670af969d53612531cbac2' => 
     array (
       0 => 'C:\\Apache24\\htdocs\\FalconMusic\\public_html\\templates\\view_playlist.tpl',
-      1 => 1542676769,
+      1 => 1543278069,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5bf36124092ae5_85844890 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5bfc8df7df9708_96891035 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html lang="en">
 
@@ -35,7 +35,8 @@ function content_5bf36124092ae5_85844890 (Smarty_Internal_Template $_smarty_tpl)
     <title>Playlists - Falcon Music</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo $_smarty_tpl->tpl_vars['WEB_URL']->value;?>
+vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
     <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
@@ -162,7 +163,7 @@ $_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->t
 if ($_from !== null) {
 foreach ($_from as $_smarty_tpl->tpl_vars['song']->value) {
 ?>
-                    <h3><?php echo $_smarty_tpl->tpl_vars['song']->value['Title'];?>
+                    <h3><input type="checkbox"><?php echo $_smarty_tpl->tpl_vars['song']->value['Title'];?>
 </h3>
                 <?php
 }

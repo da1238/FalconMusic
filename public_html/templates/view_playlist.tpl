@@ -123,7 +123,7 @@
         <div class="col-lg-6 order-lg-1">
             <div class="p-5">
                 {foreach $Lists as $song}
-                    <h3>{$song['Title']}</h3>
+                    <h3><input type="checkbox">{$song['Title']}</h3>
                 {/foreach}
             </div>
         </div>
