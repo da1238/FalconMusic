@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-    <title>Artists - Falcon Music</title>
+    <title>Playlists - Falcon Music</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -17,6 +17,8 @@
     <!-- Custom fonts for this template -->
     <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
     <!-- Custom styles for this template -->
     <link href="css/falconmusic.css" rel="stylesheet">
@@ -33,7 +35,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <form class="form-inline">
-            <input class="form-control mr-sm-6" type="search" placeholder="Search for an Artist" aria-label="Search">
+            <input class="form-control mr-sm-6" type="search" placeholder="Search for a playlist" aria-label="Search">
             <button id="button1" class="btn btn-outline-success my-2 my-sm-4" type="submit">Search</button>
         </form>
         <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -50,16 +52,38 @@
                 <li class="nav-item">
                     <a class="nav-link" href="song.html">Songs</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="profile.php">
-                        <img src="https://vignette.wikia.nocookie.net/bungostraydogs/images/1/1e/Profile-icon-9.png/revision/latest?cb=20171030104015"
-                             alt="" class="" height="20px">
-                    </a>
-                </li>
             </ul>
         </div>
     </div>
 </nav>
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Add a Song</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label for="song-name" class="col-form-label">Song Name</label>
+                        <input type="text" class="form-control" id="song-name">
+                    </div>
+                    <div class="form-group">
+                        <label for="artist-name" class="col-form-label">Artist Name</label>
+                        <input type="text" class="form-control" id="artist-name">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save Changes</button>
+            </div>
+        </div>
+    </div>
+</div>
 
 <div class="image-wrap">
     <div class="img-content">
@@ -77,41 +101,46 @@
         <div class="row align-items-right">
             <div class="col-lg-6 order-lg-1">
                 <div class="p-5">
-                    <h2><b>Added by:</b> <p>Johnny AppleSeed789</p></h2>
-                    <h2 class="display-4">Bio</h2>
+                    <h2><b>Created by:</b> <p>Johnny AppleSeed789</p></h2>
+                    <h2 class="display-4">Relaxation Playlist</h2>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">+ADD SONG</button>
+                    <button type="button" class="btn btn-primary">REMOVE SELECTED SONGS</button>
+                    <div class="song-list">
+                        <label class="songContainer">Gravity
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
 
-                    <p>Born on October 16, 1977, John Mayer launched his music career in the late 1990s. In 2001 he
-                        released the album Room for Squares, and two years later he debuted Heavier Things. Both
-                        efforts were commercially successful, multi-platinum albums that spawned several hits,
-                        including Grammy-winning songs like "Your Body Is a Wonderland" and "Daughters." Having
-                        established himself in adult contemporary rock, Mayer broadened the scope of his sound
-                        to incorporate the blues, forming the John Mayer Trio in the mid 2000s. In 2015 he
-                        collaborated with Grateful Dead's Bob Weir to form the touring band Dead & Company.
+                        <label class="songContainer">New Light
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
 
-                        <br>
+                        <label class="songContainer">Heartbreak Warfare
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
 
-                        <i><a href="https://www.biography.com/people/john-mayer-507677">Source</a></i>
-                    </p>
+                        <label class="songContainer">Neon
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                    </div>
+
                 </div>
             </div>
             <div class="col-lg-6 order-lg-1">
                 <div class="p-5">
 
-                    <h3><b>Genre:</b> <p>Pop Rock Blues Folk Country Soul</p></h3>
-                    <h2 class="display-4">Top albums</h2>
-                    <ul>
-                        <li>The Search for Everything</li>
-                        <li>Paradise Valley</li>
-                        <li>Born and Raised</li>
-                        <li>Continuum</li>
-
-                    </ul>
+                    <h3><b>Genre:</b> <p>Relaxation</p></h3>
 
                 </div>
             </div>
         </div>
     </div>
 </section>
+
+
 
 <div class="container">
     <div class="row">
@@ -129,32 +158,49 @@
                             <input type="radio" id="star9" name="rating" value="9" /><label for="star9" title="Rocks!">4 stars</label>
                             <input type="radio" id="star8" name="rating" value="8" /><label for="star8" title="Pretty good">3 stars</label>
                             <input type="radio" id="star7" name="rating" value="7" /><label for="star7" title="Pretty good">2 stars</label>
-                            <input type="radio" id="star6" name="rating" value="6" /><label for="star1" title="Meh">1 star</label>
+                            <input type="radio" id="star6" name="rating" value="6" /><label for="star6" title="Meh">1 star</label>
                         </div>
                         <button type="submit" class="btn btn-success green"><i class="fa fa-share"></i>Post</button>
                     </form>
-                </div>
-            </div>
+                </div><!-- Status Upload  -->
+            </div><!-- Widget Area -->
+
         </div>
+
     </div>
 
 </div>
 
+<div class="container">
+    <div class="row">
+
+    </div>
+</div>
+
+
+
 <!-- Footer -->
 <footer class="py-5 bg-black">
     <div class="container">
+
         <div class="container">
+
             <div class="dropup">
                 <button class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split" type="button" data-toggle="dropdown">
                     <span class="caret"></span></button>
                 <ul class="dropdown-menu">
-                    <li><a href="#deleteArtistModal" class="delete" data-toggle="modal">Delete Artist</a></li>
+                    <li><a href="#deleteArtistModal" class="delete" data-toggle="modal">Delete artist <i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i> </a></li>
+
                     <li class="divider"></li>
+
                 </ul>
             </div>
         </div>
 
+
         <p class="m-0 text-center text-white small">Copyright &copy; Falcon Music 2018</p>
+
+
     </div>
 
     <!-- /.container -->

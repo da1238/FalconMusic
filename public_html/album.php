@@ -29,9 +29,9 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <form class="form-inline">
-            <input class="form-control mr-sm-6" type="search" placeholder="Search for an Album" aria-label="Search">
-            <button id="button1" class="btn btn-outline-success my-2 my-sm-4" type="submit" style="color:black;">Search</button>
+        <form class="form-inline" action ="results.php" method="post">
+            <input name="searchterm" class="form-control mr-sm-6" type="search" placeholder="Search for an Album" aria-label="Search">
+            <button name="btnSearch" id="button1" class="btn btn-outline-success my-2 my-sm-4" type="submit" style="color:black;">Search</button>
         </form>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
@@ -39,7 +39,7 @@
                     <a class="nav-link" href="playlist.php">My Playlists</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="album.html">Albums</a>
+                    <a class="nav-link" href="album.php">Albums</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="artist.html">Artists</a>

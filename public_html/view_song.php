@@ -1,3 +1,14 @@
+<?php //include 'private_html/dbconfig.inc.php';?>
+<?php
+//
+//$data = $pdo->query("SELECT * FROM song")->fetchAll();
+//// and somewhere later:
+//foreach ($data as $row) {
+//    echo $row['Title']."<br />\n";
+//}
+//
+//?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,7 +20,7 @@
     <meta name="author" content="">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-    <title>Artists - Falcon Music</title>
+    <title>Songs - Falcon Music</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -17,6 +28,8 @@
     <!-- Custom fonts for this template -->
     <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
     <!-- Custom styles for this template -->
     <link href="css/falconmusic.css" rel="stylesheet">
@@ -33,13 +46,13 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <form class="form-inline">
-            <input class="form-control mr-sm-6" type="search" placeholder="Search for an Artist" aria-label="Search">
+            <input class="form-control mr-sm-6" type="search" placeholder="Search for a Song" aria-label="Search">
             <button id="button1" class="btn btn-outline-success my-2 my-sm-4" type="submit">Search</button>
         </form>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="playlist.php">My Playlists</a>
+                    <a class="nav-link" href="playlists.html">My Playlists</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="album.html">Albums</a>
@@ -50,12 +63,6 @@
                 <li class="nav-item">
                     <a class="nav-link" href="song.html">Songs</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="profile.php">
-                        <img src="https://vignette.wikia.nocookie.net/bungostraydogs/images/1/1e/Profile-icon-9.png/revision/latest?cb=20171030104015"
-                             alt="" class="" height="20px">
-                    </a>
-                </li>
             </ul>
         </div>
     </div>
@@ -63,7 +70,7 @@
 
 <div class="image-wrap">
     <div class="img-content">
-        <img src="http://kiim.net/wp-content/uploads/2014/06/johnmayer_norwegianwood6.jpg" alt="">
+        <img src="https://i.pinimg.com/originals/78/92/e0/7892e0ebe5910289607227d3eec90f8a.jpg" style="margin:0; height: 415px;width:100%;" alt="">
     </div>
     <div class="overlay"></div>
 </div>
@@ -78,32 +85,61 @@
             <div class="col-lg-6 order-lg-1">
                 <div class="p-5">
                     <h2><b>Added by:</b> <p>Johnny AppleSeed789</p></h2>
-                    <h2 class="display-4">Bio</h2>
+                    <h2 class="display-4">Lyrics</h2>
 
-                    <p>Born on October 16, 1977, John Mayer launched his music career in the late 1990s. In 2001 he
-                        released the album Room for Squares, and two years later he debuted Heavier Things. Both
-                        efforts were commercially successful, multi-platinum albums that spawned several hits,
-                        including Grammy-winning songs like "Your Body Is a Wonderland" and "Daughters." Having
-                        established himself in adult contemporary rock, Mayer broadened the scope of his sound
-                        to incorporate the blues, forming the John Mayer Trio in the mid 2000s. In 2015 he
-                        collaborated with Grateful Dead's Bob Weir to form the touring band Dead & Company.
+                    <p>Sunday morning, rain is falling<br>
+                        Steal some covers, share some skin<br>
+                        Clouds are shrouding us in moments unforgettable<br>
+                        You twist to fit the mold that I am in<br>
+                        But things just get so crazy, living life gets hard to do<br>
+                        And I would gladly hit the road, get up and go if I knew<br>
+                        That someday it would lead me back to you<br>
+                        That someday it would lead me back to you<br>
+                        That may be all I need<br>
+                        In darkness, she is all I see<br>
+                        Come and rest your bones with me<br>
+                        Driving slow on Sunday morning<br>
+                        And I never want to leave<br>
+                        Fingers trace your every outline<br>
+                        Paint a picture with my hands<br>
+                        Back and forth we sway like branches in a storm<br>
+                        Change the weather, still together when it ends<br>
+                        That may be all I need<br>
+                        In darkness, she is all I see<br>
+                        Come and rest your bones with me<br>
+                        Driving slow on Sunday morning<br>
+                        And I never want to leave<br>
+                        But things just get so crazy, living life gets hard to do<br>
+                        Sunday morning, rain is falling and I'm calling out to you<br>
+                        Singing, someday it'll bring me back to you.<br>
+                        Find a way to bring myself back home to you<br>
+                        That may be all I need<br>
+                        In darkness, she is all I see<br>
+                        Come and rest your bones with me<br>
+                        Driving slow on Sunday morning<br>
+                        Driving slow<br>
+                        It's flower in your hair<br>
+                        I'm a flower in your hair<br>
+
 
                         <br>
 
-                        <i><a href="https://www.biography.com/people/john-mayer-507677">Source</a></i>
+                        <i><a href="https://genius.com/Maroon-5-sunday-morning-lyrics">Source</a></i>
                     </p>
                 </div>
             </div>
             <div class="col-lg-6 order-lg-1">
                 <div class="p-5">
 
-                    <h3><b>Genre:</b> <p>Pop Rock Blues Folk Country Soul</p></h3>
-                    <h2 class="display-4">Top albums</h2>
+                    <h3><b>Genre:</b> <p>Pop Rock</p></h3>
+                    <h3><b>Year Released:</b> <p>2002</p></h3>
+                    <h3><b>Album:</b> <p>Songs About Jane</p></h3>
+                    <h2 class="display-4">Top Songs</h2>
                     <ul>
-                        <li>The Search for Everything</li>
-                        <li>Paradise Valley</li>
-                        <li>Born and Raised</li>
-                        <li>Continuum</li>
+                         <li>Girls Like You</li>
+                         <li>Sugar</li>
+                         <li>What Lovers Do</li>
+                         <li>She Will Be Loved</li>
 
                     </ul>
 
@@ -112,6 +148,8 @@
         </div>
     </div>
 </section>
+
+
 
 <div class="container">
     <div class="row">
@@ -124,37 +162,47 @@
                 <div class="status-upload">
                     <form>
                         <textarea placeholder="Write a review ..." ></textarea>
-                        <div class="rating">
-                            <input type="radio" id="star10" name="rating" value="10" /><label for="star10" title="Rocks!">5 stars</label>
-                            <input type="radio" id="star9" name="rating" value="9" /><label for="star9" title="Rocks!">4 stars</label>
-                            <input type="radio" id="star8" name="rating" value="8" /><label for="star8" title="Pretty good">3 stars</label>
-                            <input type="radio" id="star7" name="rating" value="7" /><label for="star7" title="Pretty good">2 stars</label>
-                            <input type="radio" id="star6" name="rating" value="6" /><label for="star1" title="Meh">1 star</label>
-                        </div>
                         <button type="submit" class="btn btn-success green"><i class="fa fa-share"></i>Post</button>
                     </form>
-                </div>
-            </div>
+                </div><!-- Status Upload  -->
+            </div><!-- Widget Area -->
+
         </div>
+
     </div>
 
 </div>
 
+<div class="container">
+    <div class="row">
+
+    </div>
+</div>
+
+
+
 <!-- Footer -->
 <footer class="py-5 bg-black">
     <div class="container">
+
         <div class="container">
+
             <div class="dropup">
                 <button class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split" type="button" data-toggle="dropdown">
                     <span class="caret"></span></button>
                 <ul class="dropdown-menu">
-                    <li><a href="#deleteArtistModal" class="delete" data-toggle="modal">Delete Artist</a></li>
+                    <li><a href="#deleteArtistModal" class="delete" data-toggle="modal">Delete Song <i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i> </a></li>
+
                     <li class="divider"></li>
+
                 </ul>
             </div>
         </div>
 
+
         <p class="m-0 text-center text-white small">Copyright &copy; Falcon Music 2018</p>
+
+
     </div>
 
     <!-- /.container -->
@@ -166,11 +214,11 @@
         <div class="modal-content">
             <form>
                 <div class="modal-header">
-                    <h4 class="modal-title">Delete Artist</h4>
+                    <h4 class="modal-title">Delete Song</h4>
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                 </div>
                 <div class="modal-body">
-                    <p>Are you sure you want to delete this Artist?</p>
+                    <p>Are you sure you want to delete this Song?</p>
                     <p class="text-warning"><small>This action cannot be undone.</small></p>
                 </div>
                 <div class="modal-footer">
